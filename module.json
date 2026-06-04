@@ -1,0 +1,49 @@
+{
+  "id": "final-fantasy-summons",
+  "title": "Final Fantasy Summons",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "authors": [
+    {
+      "name": "Zanturo",
+      "discord": "Zanturo",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "final-fantasy-summons",
+      "label": "Final Fantasy Summons",
+      "path": "packs/final-fantasy-summons",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "projectfu",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "projectfu-playtest",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
