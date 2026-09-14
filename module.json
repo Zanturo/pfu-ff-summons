@@ -2,6 +2,8 @@
   "id": "final-fantasy-summons",
   "title": "Final Fantasy Summons",
   "version": "1.0.0",
+  "manifest": "https://github.com/Zanturo/pfu-ff-summons/releases/latest/download/module.json",
+  "download": "https://github.com/Zanturo/pfu-ff-summons/releases/download/1.0.0/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"
